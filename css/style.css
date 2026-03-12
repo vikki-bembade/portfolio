@@ -1,0 +1,73 @@
+body{
+margin:0;
+font-family:Arial, sans-serif;
+
+/* important for footer */
+
+display:flex;
+flex-direction:column;
+min-height:100vh;
+}
+
+
+/* NAVBAR */
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 40px;
+background:#222;
+}
+
+.logo{
+color:white;
+}
+
+.nav-links{
+list-style:none;
+display:flex;
+}
+
+.nav-links li{
+margin-left:20px;
+}
+
+.nav-links a{
+color:white;
+text-decoration:none;
+}
+
+
+/* HOME SECTION */
+
+.home{
+height:80vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+
+/* pushes footer down */
+
+flex:1;
+}
+
+.home h1{
+font-size:40px;
+}
+
+.home p{
+font-size:20px;
+color:gray;
+}
+
+
+/* FOOTER */
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:10px;
+}

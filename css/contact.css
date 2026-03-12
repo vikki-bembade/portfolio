@@ -1,0 +1,64 @@
+body{
+margin:0;
+font-family:Arial, sans-serif;
+display:flex;
+flex-direction:column;
+min-height:100vh;
+}
+
+/* NAVBAR */
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 40px;
+background:#222;
+}
+
+.logo{
+color:white;
+}
+
+.nav-links{
+list-style:none;
+display:flex;
+}
+
+.nav-links li{
+margin-left:20px;
+}
+
+.nav-links a{
+color:white;
+text-decoration:none;
+}
+
+
+/* CONTACT SECTION */
+
+.contact{
+text-align:center;
+padding:60px 20px;
+flex:1;
+}
+
+.contact h1{
+font-size:36px;
+margin-bottom:30px;
+}
+
+.contact-container{
+font-size:18px;
+line-height:2;
+}
+
+
+/* FOOTER */
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:10px;
+}
