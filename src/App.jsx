@@ -6,13 +6,13 @@ import Projects from './pages/Projects'
 import './App.css'
 import Contact from './pages/Contact'
 import Footer from './componant/Footer'
-import NavBar from './componant/NavBar'
+import Header from './componant/Header'
 
 const App = () => {
   return (
-    <>
-      <NavBar />
-      <main className="min-h-screen bg-slate-50 text-slate-900">
+    <div className="bg-slate-50 text-slate-900 antialiased">
+      <Header />
+      <main className="pt-20">
         <Home />
         <About />
         <Skills />
@@ -20,7 +20,7 @@ const App = () => {
         <Contact />
       </main>
       <Footer />
-    </>
+    </div>
   )
 }
 

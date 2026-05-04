@@ -1,11 +1,10 @@
 import React from 'react'
-import Contact from '../pages/Contact'
 
 const Footer = () => {
   return (
-    <footer className="bg-white border-t border-slate-200 py-4">
-      <div className="text-center text-sm text-slate-600">
-        &copy; {new Date().getFullYear()} Vikib. All rights reserved.
+    <footer className="bg-slate-950 text-slate-400 py-6">
+      <div className="mx-auto max-w-6xl px-6 text-center text-sm">
+        &copy; {new Date().getFullYear()} Vikki Bembade. All rights reserved.
       </div>
     </footer>
   )
