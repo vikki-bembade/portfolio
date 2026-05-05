@@ -13,7 +13,7 @@ const Contact = () => {
           <div className="grid gap-6 md:grid-cols-3 text-center">
             <div className=" p-6">
               <p className="text-sm uppercase tracking-[0.3em] text-sky-400 font-semibold">Email</p>
-              <p className="mt-3 text-lg font-semibold">BemabdeVikki@gmail.com</p>
+              <p className="mt-3 text-lg font-semibold">bemabdevikki@gmail.com</p>
             </div>
             <div className="p-6">
               <p className="text-sm uppercase tracking-[0.3em] text-sky-400 font-semibold">Phone</p>

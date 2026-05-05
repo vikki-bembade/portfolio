@@ -13,7 +13,7 @@ const Home = () => {
               Hi, I'm Vikki Bembade
             </h1>
             <p className="max-w-2xl text-lg leading-8 text-slate-600">
-              I build attractive, user-friendly web applications using React, Java, and modern front-end tools. My focus is on clean design, solid performance, and polished user experiences.
+              I build attractive, user-friendly applications using modern tools. My focus is on clean design, solid performance, and polished user experiences.
             </p>
             <div className="flex flex-wrap gap-4">
               <a
@@ -33,9 +33,9 @@ const Home = () => {
           </div>
           <div className="rounded-[2rem] border border-slate-200 bg-white p-8 shadow-xl">
             <p className="text-sm uppercase tracking-[0.3em] text-slate-500 font-semibold">About</p>
-            <h2 className="mt-4 text-3xl font-bold text-slate-900">A thoughtful frontend-focused developer</h2>
+            <h2 className="mt-4 text-3xl font-bold text-slate-900">A thoughtful full-stack developer</h2>
             <p className="mt-4 text-slate-600 leading-7">
-              I create responsive, accessible interfaces with clean structure and consistent spacing. My goal is to make each application feel modern and easy to use.
+              I create responsive, accessible applications with clean structure and consistent spacing. My goal is to make each application feel modern and easy to use.
             </p>
             <div className="mt-8 grid gap-4">
               <div className="rounded-3xl bg-slate-50 p-5">

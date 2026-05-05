@@ -6,7 +6,7 @@ import leetcode from '../assets/leetcode.svg'
 
 const linkes = () => {
   return (
-    <div className="flex items-start justify-end gap-1 whitespace-nowrap pr-4 px-22">
+    <div className="flex items-start gap-6 justify-end gap-1 whitespace-nowrap pr-4 px-22">
 
       
 
