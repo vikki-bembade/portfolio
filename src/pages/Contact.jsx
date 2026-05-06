@@ -8,7 +8,7 @@ const Contact = () => {
         <div className=" p-10">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-6">Contact</h2>
           <p className="max-w-3xl mx-auto text-center mb-10">
-            I’m open to new opportunities and happy to collaborate on web projects. Reach out for development, design, or application support.
+            I’m open to new opportunities and happy to collaborate. Reach out for development, design, or application support.
           </p>
           <div className="grid gap-6 md:grid-cols-3 text-center">
             <div className=" p-6">

@@ -4,6 +4,7 @@ import nodeLogo from '../assets/nodejs.svg'
 import htmlLogo from '../assets/html.svg'
 import cssLogo from '../assets/css.svg'
 import javaLogo from '../assets/java.svg'
+import sqlLogo from '../assets/sql.svg'
 const skills = [
 
     {
@@ -30,6 +31,11 @@ const skills = [
         name: 'css',
         logo: cssLogo
     },
+    {
+        name: 'sql',
+        logo: sqlLogo
+    },
+    
     
 ];
 
