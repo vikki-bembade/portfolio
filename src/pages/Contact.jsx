@@ -3,7 +3,7 @@ import Linkes from '../componant/Linkes'
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-16 md:py-20 text-black justify-center">
+    <section id="contact" className="py-16 md:py-20 text-black justify-items-center">
       <div className="mx-auto max-w-5xl px-6">
         <div className=" p-10">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-6">Contact</h2>

@@ -7,7 +7,7 @@ const Projects = () => {
     <section id="projects" className="py-16 md:py-20">
       <h2 className="text-3xl md:text-4xl font-bold text-slate-900 text-center mb-12">Projects</h2>
       <div className="mx-auto max-w-6xl px-4">
-        <div className="flex w-full gap-6 overflow-x-auto pb-6">
+        <div className="flex w-full justify-center gap-6 overflow-x-auto pb-6">
           {projects.map((project) => (
             <ProjectCard key={project.name} project={project} />
           ))}
